@@ -21,26 +21,29 @@ Website: https://github.com/brainfucksec/neovim-lua
 -----------------------------------------------------------
 
 -- Archivo de configuración básico
-require('settings')
-require('keymaps')
+require("settings")
+require("keymaps")
 
 -- Plugins
-require('plugins/packer')                -- plugin manager
-require('plugins/nvim-lspconfig')        -- LSP settings
-require('plugins/ayu')                   -- theme
-require('plugins/neo-tree')              -- filebrowser
-require('plugins/feline')                -- statusline
-require('plugins/gitsigns')              -- git decorations
-require('plugins/indent-blankline')      -- indentation
-require('plugins/nvim-treesitter')       -- tree-sitter interface
-require('plugins/nvim-cmp')              -- autocomplete
-require('plugins/sidebar-nvim')          -- sidebar
-require('plugins/telescope-media-files') -- telescope media files
-require('plugins/telescope-nvim')        -- telescope
-require('plugins/telescope-ui-select')   -- telescope select
-require('plugins/vista')                 -- tag viewer
-require('plugins/rest')
-require('plugins/todo-comments')
-require('plugins/legendary')
-require('plugins/neo-scrolle')            -- Smooth scrolling
-require('plugins/mason-config')                     -- LSP definitivo
+require("plugins/packer") -- plugin manager
+require("plugins/ayu") -- theme
+require("plugins/neo-tree") -- filebrowser
+require("plugins/feline") -- statusline
+require("plugins/gitsigns") -- git decorations
+require("plugins/indent-blankline") -- indentation
+require("plugins/nvim-treesitter") -- tree-sitter interface
+require("plugins/nvim-cmp") -- autocomplete
+require("plugins/sidebar-nvim") -- sidebar
+require("plugins/telescope-media-files") -- telescope media files
+require("plugins/telescope-nvim") -- telescope
+require("plugins/telescope-ui-select") -- telescope select
+require("plugins/vista") -- tag viewer
+require("plugins/rest")
+require("plugins/todo-comments")
+require("plugins/legendary")
+require("plugins/neo-scrolle") -- Smooth scrolling
+require("plugins/mason-config") -- LSP definitivo
+require("plugins/nvim-lspconfig") -- LSP settings
+require("plugins/lspsaga")
+require("plugins/completion")
+require("plugins/null-ls")
